@@ -1,7 +1,6 @@
 #Program Written By: Ainsley Bellamy
 #Date Written: 04/03/2025
 #Program Title: Compiled_Code
-from turtledemo.clock import display_date_time
 
 
 #I chose to try some of the code from the Programiz video.
