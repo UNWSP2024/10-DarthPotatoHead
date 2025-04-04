@@ -52,6 +52,7 @@ def acceleration(car):
         time.sleep(1)
         print(". ",end="")
     print()
+#Calling the accelerate method 5 times will change the self.__speed attribute to 25, adding 5 each time.
     for i in range(5):
         time.sleep(1)
         car.accelerate()
