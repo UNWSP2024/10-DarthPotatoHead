@@ -56,14 +56,14 @@ def acceleration(car):
     for i in range(5):
         time.sleep(1)
         car.accelerate()
-        print(car.get_speed())
+        print(car.get_speed(), "mph")
 
 #Simulate braking fast.
 def deceleration(car):
     for i in range(5):
         time.sleep(0.5)
         car.brake()
-        print(car.get_speed())
+        print(car.get_speed(), "mph")
 
 #Define objects and call above functions.
 def main():
